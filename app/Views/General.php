@@ -52,10 +52,10 @@
                 <div class="sidebar-nav navbar-collapse">
                     <ul class="nav" id="side-menu">
                         <li>
-                            <a href="#" class="active"><i class="fa fa-table fa-fw"></i> Tabla</a>
-                        </li>
+                            <a href="<?php base_url(); ?>/tabla"> <i class="active" > <i class="fa fa-table fa-fw"></i> Usuarios </a></i> 
+                      </li>
                         <li>
-                            <a href="<?php base_url(); ?>/perfil"><i class="fa fa-user fa-fw"></i> Nuevo usuario </a>
+                            <a href="<?php base_url(); ?>/form"><i class="fa fa-user fa-fw"></i> Nuevo usuario </a>
                         </li>
                         <li>
                             <a href="<?php base_url(); ?>/perfil"><i class="fa fa-shop fa-fw"></i> Nueva Empresa </a>
