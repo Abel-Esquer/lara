@@ -35,6 +35,8 @@ $routes->get('/tabla', 'UsuarioController::index');
 $routes->get('/agregar', 'UsuarioController::save');
 $routes->get('/form', 'UsuarioController::form');
 
+$routes->resource('choferes');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

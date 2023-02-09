@@ -4,16 +4,24 @@ use CodeIgniter\Model;
 
 class UsuarioModel extends Model{
 
-    protected $table = 'Usuario';
+    protected $table = 'choferes';
     protected $primarykey = 'id';
     protected $allowedFields = [
-        "nombre", 
-        "correo",
-        "telefono" ,
-        "contrasena" ,
-        "id_campus", 
-        "rol",
-        "matricula"
+        "nombre_completo", 
+        "descripcion",
+        "empresa" ,
+        "ine" ,
+        "curp", 
+        "rfc",
+        "nss",
+        "tipo sangre",
+        "no licencia",
+        "tipo licencia",
+        "vigencia licencia",
+        "telefono",
+        "foto chofer",
+        "no ine",
+        "expediente"
     ];
 
 }
