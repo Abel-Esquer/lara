@@ -42,6 +42,8 @@ $routes->get('usuario/new', 'UsuarioController::new');
 //Crea al usuario en la base de datos
 //Regresa un true
 $routes->post('usuario', 'UsuarioController::create');
+$routes->post('empresa', 'UsuarioController::create');
+
 
 //Regresa lista con todos los usuarios de la base de datos
 $routes->get('usuario', 'UsuarioController::index');

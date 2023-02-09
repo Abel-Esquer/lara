@@ -16,8 +16,9 @@
                 <div class="form-group">
                     <label>Empresa</label>
                     <select class="form-control" value ="1" name="empresa">
-                        <option value="1">Empresa 1</option>
-                        <option>Empresa 2</option>
+                    <?php foreach($empresas as $key => $empresa){?> 
+                        <option><?=$empresa['nombre']?></option>
+                        <?php } ?>
                         <option>Empresa 3</option>
                     </select>
                 </div>

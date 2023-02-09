@@ -4,7 +4,7 @@
 
 <div class="col-lg-12" style="padding: 50px">
     <div class="">
-            <form action="<?php base_url(); ?>usuario/save" method="POST">
+            <form action="<?php base_url(); ?>empresa/" method="POST">
                 <div class="form-group">
                     <label>Nombre de la empresa</label>
                     <input class="form-control" name="nombre" placeholder="">

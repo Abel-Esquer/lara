@@ -44,7 +44,13 @@ class UsuarioController extends BaseController
         $usuarioModel = new \App\Models\UsuarioModel();
         $usuarios = $usuarioModel->findAll();
         $data = ["usuarios"=>$usuarios];
-        return view('usuarios/tabla_usuarios',$data);
+
+        $empresaModel = new \App\Models\EmpresaModel();
+        $empresas = $empresaModel->findAll();
+        $datos = ["empresa"=>$empresa];
+
+
+        return view('usuarios/tabla_usuarios',$data, $datos);
     }
 
     public function show($id){
