@@ -21,11 +21,12 @@
                         </tr>
                     </thead>
                     <tbody>
+                        <?php foreach($usuarios as $key => $usuario)?> 
                         <tr>
-                            <td>Jonh Doe</td>
-                            <td>DJ6548AD14KL</td>
-                            <td>JD74554</td>
-                            <td>6221458525</td>
+                            <td><?= $usuario['nombre_completo']?></td>
+                            <td><?= $usuario['curp']?></td>
+                            <td><?= $usuario['rfc']?></td>
+                            <td><?= $usuario['telefono']?></td>
                             <td><a class="btn btn-primary">Ver foto</a></td>    
                             <td><a class="btn btn-primary btn-circle"><i class="fa fa-eye fa-fw"></i></a> 
                                 <a class="btn btn-primary btn-circle"><i class="fa fa-pencil fa-fw"></i></a> 

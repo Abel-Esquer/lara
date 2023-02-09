@@ -2,14 +2,10 @@
 
 namespace App\Controllers;
 
-use CodeIgniter\RESTful\ResourceController;
+use App\Models\UsuarioModel; 
 
-
-class UsuarioController extends ResourceController
+class UsuarioController extends BaseController
 {
-    public function index(){
-        return view('usuarios/tabla_usuarios');
-    }
 
     public function new(){
         return view('usuarios/form_usuarios');
@@ -53,9 +49,16 @@ class UsuarioController extends ResourceController
         */    
     }
 
-    public function show($Id){
+    public function index(){
+        $usuarioModel = new \App\Models\UsuarioModel();
+        $usuarios = $usuarioModel->findAll();
 
-        /*return $productos = $this-> asArray()-> where (['matricula'=>$matricula])->findAll();*/
-         
+        $data =["usuarios"=>$usuarios];
+
+        return view('usuarios/tabla_usuarios',$data);
+    }
+
+    public function show($id){
+        return view('usuarios/form_usuarios_edit');
     }
 }

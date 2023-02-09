@@ -31,11 +31,39 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 
-$routes->get('/tabla', 'UsuarioController::index');
 $routes->get('/agregar', 'UsuarioController::save');
 $routes->get('/form', 'UsuarioController::form');
 
-$routes->resource('choferes');
+// Equivalent to the following:
+//Formulario para crear un usuario
+//Regresar un view
+$routes->get('usuario/new', 'UsuarioController::new');
+
+//Crea al usuario en la base de datos
+//Regresa un true
+$routes->post('usuario', 'UsuarioController::create');
+
+//Regresa lista con todos los usuarios de la base de datos
+$routes->get('usuario', 'UsuarioController::index');
+
+//Regresa el usuario con el id proporcionado
+$routes->get('usuario/(:segment)', 'UsuarioController::show/$1');
+
+//Formulario para editar el usuario
+//Regresa un view
+$routes->get('usuario/(:segment)/edit', 'UsuarioController::edit/$1');
+
+//Edita al usuario en la base de daos
+//$routes->put('usuario/(:segment)', 'UsuarioController::update/$1');
+
+//Edita al usuario en la base de datos
+$routes->post('usuario/(:segment)/edit', 'UsuarioController::update/$1');
+
+//Edita al usuario en la base de datos
+$routes->patch('usuario/(:segment)', 'UsuarioController::update/$1');
+
+//Elimina al usuario en la base de datos
+$routes->delete('usuario/(:segment)', 'UsuarioController::delete/$1');
 
 /*
  * --------------------------------------------------------------------
