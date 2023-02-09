@@ -25,31 +25,31 @@
                 </div>
                 <div class="form-group">
                     <label>CURP </label>
-                    <input class="form-control" name="curp" placeholder="">
+                    <p class="form-control-static" name="curp"></p>
                 </div>
                 <div class="form-group">
                     <label>RFC </label>
-                    <input class="form-control" name="rfc" placeholder="">
+                    <p class="form-control-static" name="rfc"></p>
                 </div>
                 <div class="form-group">
                     <label>NSS </label>
-                    <input class="form-control" name="nss" placeholder="">
+                    <p class="form-control-static" name="nss"></p>
                 </div>
                 <div class="form-group">
                     <label>Tipo de sangre </label>
-                    <input class="form-control" name="tipo sangre" placeholder="">
+                    <p class="form-control-static" name="tipo sangre"></p>
                 </div>
                 <div class="form-group">
                     <label>Numero de licencia</label>
-                    <input class="form-control" name="no licencia" placeholder="">
+                    <p class="form-control-static" name="no licencia"></p>
                 </div>
                 <div class="form-group">
                     <label>Tipo de licencia </label>
-                    <input class="form-control" name="tipo licencia" placeholder="">
+                    <p class="form-control-static" name="tipo licencia"></p>
                 </div>
                 <div class="form-group">
                     <label>RFC </label>
-                    <input class="form-control" name="rfc" placeholder="">
+                    <p class="form-control-static" name="rfc"></p>
                 </div>
                 <div class="form-group">
                     <label>Vigencia de la licencia</label>
