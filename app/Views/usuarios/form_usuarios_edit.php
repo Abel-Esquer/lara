@@ -7,21 +7,23 @@
             <form action="<?php base_url(); ?>usuario/save" method="POST">
                 <div class="form-group">
                     <label>Nombre </label>
-                    <p class="form-control-static" name="nombre"></p>    
+                    <input class="form-control" name="nombre" placeholder="">
                 </div>
                 <div class="form-group">
                     <label>Descripcion </label>
-                    <p class="form-control-static" name="descripcion"></p>
+                    <input class="form-control" name="descripcion" placeholder="">
                 </div> 
                 <div class="form-group">
                     <label>Empresa</label>
                     <select class="form-control">
                         <option>Empresa 1</option>
+                        <option>Empresa 2</option>
+                        <option>Empresa 3</option>
                     </select>
                 </div>
                 <div class="form-group">
                     <label>IFE </label>
-                    <p class="form-control-static" name="nombre"></p>
+                    <input class="form-control" name="ife" placeholder="">
                 </div>
                 <div class="form-group">
                     <label>CURP </label>
