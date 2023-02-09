@@ -21,17 +21,18 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <?php foreach($usuarios as $key => $usuario)?> 
+                        <?php foreach($usuarios as $key => $usuario){?> 
                         <tr>
                             <td><?= $usuario['nombre_completo']?></td>
                             <td><?= $usuario['curp']?></td>
                             <td><?= $usuario['rfc']?></td>
                             <td><?= $usuario['telefono']?></td>
                             <td><a class="btn btn-primary">Ver foto</a></td>    
-                            <td><a class="btn btn-primary btn-circle"><i class="fa fa-eye fa-fw"></i></a> 
+                            <td><a href="<?php base_url()?>/usuario/<?= $usuario['id']?>" class="btn btn-primary btn-circle"><i class="fa fa-eye fa-fw"></i></a> 
                                 <a class="btn btn-primary btn-circle"><i class="fa fa-pencil fa-fw"></i></a> 
                                 <a class="btn btn-danger btn-circle"><i class="fa fa-trash fa-fw"></i></a></td>
-                        </tr>
+                        </tr
+                        <?php } ?>
                     </tbody>
                 </table>
             </div>

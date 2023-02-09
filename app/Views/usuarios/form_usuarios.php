@@ -4,56 +4,55 @@
 
 <div class="col-lg-12" style="padding: 50px">
     <div class="">
-            <form action="<?php base_url(); ?>usuario/save" method="POST">
+            <form action="<?php base_url(); ?>/usuario" method="POST">
                 <div class="form-group">
                     <label>Nombre </label>
-                    <p class="form-control-static" name="nombre"></p>    
+                    <input class="form-control" name="nombre_completo" placeholder="">
                 </div>
                 <div class="form-group">
                     <label>Descripcion </label>
-                    <p class="form-control-static" name="descripcion"></p>
+                    <input class="form-control" name="descripcion" placeholder="">
                 </div> 
                 <div class="form-group">
                     <label>Empresa</label>
-                    <select class="form-control">
-                        <option>Empresa 1</option>
+                    <select class="form-control" value ="1" name="empresa">
+                        <option value="1">Empresa 1</option>
+                        <option>Empresa 2</option>
+                        <option>Empresa 3</option>
                     </select>
                 </div>
                 <div class="form-group">
-                    <label>IFE </label>
-                    <p class="form-control-static" name="nombre"></p>
+                    <label>INE </label>
+                    <input class="form-control" name="ine" placeholder="">
                 </div>
                 <div class="form-group">
                     <label>CURP </label>
-                    <p class="form-control-static" name="curp"></p>
+                    <input class="form-control" name="curp" placeholder="">
                 </div>
                 <div class="form-group">
                     <label>RFC </label>
-                    <p class="form-control-static" name="rfc"></p>
+                    <input class="form-control" name="rfc" placeholder="">
                 </div>
                 <div class="form-group">
                     <label>NSS </label>
-                    <p class="form-control-static" name="nss"></p>
+                    <input class="form-control" name="nss" placeholder="">
                 </div>
                 <div class="form-group">
                     <label>Tipo de sangre </label>
-                    <p class="form-control-static" name="tipo sangre"></p>
+                    <input class="form-control" name="tipo_sangre" placeholder="">
                 </div>
                 <div class="form-group">
                     <label>Numero de licencia</label>
-                    <p class="form-control-static" name="no licencia"></p>
+                    <input class="form-control" name="no_licencia" placeholder="">
                 </div>
                 <div class="form-group">
                     <label>Tipo de licencia </label>
-                    <p class="form-control-static" name="tipo licencia"></p>
+                    <input class="form-control" name="tipo_licencia" placeholder="">
                 </div>
-                <div class="form-group">
-                    <label>RFC </label>
-                    <p class="form-control-static" name="rfc"></p>
-                </div>
+
                 <div class="form-group">
                     <label>Vigencia de la licencia</label>
-                    <input class="form-control" name="vigencia licencia" type="date">
+                    <input class="form-control" name="vigencia_licencia" type="date">
                 </div>
                 <div class="form-group">
                     <label>Telefono </label>
@@ -61,19 +60,19 @@
                 </div>
                 <div class="form-group">
                     <label>Foto </label>
-                    <input class="" name="foto chofer" type="file">
+                    <input class="" name="foto_chofer" type="file">
                 </div>
                 <div class="form-group">
                     <label>Numero del INE </label>
-                    <input class="form-control" name="no ine" placeholder="">
+                    <input class="form-control" name="no_ine" placeholder="">
                 </div>
                 <div class="form-group">
                     <label>Expediente </label>
                     <input class="" name="expediente" placeholder="" type="file">
                 </div>
                 <div>
-                    <button class="btn btn-success" type="submit">Guardar</button> <button
-                        class="btn btn-danger">Cancelar</button>
+                    <button class="btn btn-success" type="submit">Guardar</button> 
+                    <button class="btn btn-danger">Cancelar</button>
                 </div>
             </form>
     </div>

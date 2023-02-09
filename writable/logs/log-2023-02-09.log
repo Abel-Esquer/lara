@@ -197,3 +197,194 @@ in APPPATH\Views\usuarios\tabla_usuarios.php on line 26.
  7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
  8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 06:39:27 --> Undefined variable $ususarios
+in APPPATH\Controllers\UsuarioController.php on line 56.
+ 1 APPPATH\Controllers\UsuarioController.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ususarios', 'APPPATH\\Controllers\\UsuarioController.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UsuarioController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 06:39:39 --> Undefined variable $usuarios
+in APPPATH\Views\usuarios\tabla_usuarios.php on line 24.
+ 1 APPPATH\Views\usuarios\tabla_usuarios.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'APPPATH\\Views\\usuarios\\tabla_usuarios.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\tabla_usuarios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/tabla_usuarios', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(56): view('usuarios/tabla_usuarios', [])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UsuarioController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 06:40:29 --> Undefined variable $usuarios
+in APPPATH\Views\usuarios\tabla_usuarios.php on line 24.
+ 1 APPPATH\Views\usuarios\tabla_usuarios.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'APPPATH\\Views\\usuarios\\tabla_usuarios.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\tabla_usuarios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/tabla_usuarios', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(56): view('usuarios/tabla_usuarios', [])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UsuarioController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 06:44:07 --> Undefined variable $usuarios
+in APPPATH\Views\usuarios\tabla_usuarios.php on line 24.
+ 1 APPPATH\Views\usuarios\tabla_usuarios.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'APPPATH\\Views\\usuarios\\tabla_usuarios.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\tabla_usuarios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/tabla_usuarios', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(56): view('usuarios/tabla_usuarios', [])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UsuarioController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 06:44:11 --> Undefined variable $usuarios
+in APPPATH\Views\usuarios\tabla_usuarios.php on line 24.
+ 1 APPPATH\Views\usuarios\tabla_usuarios.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'APPPATH\\Views\\usuarios\\tabla_usuarios.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\tabla_usuarios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/tabla_usuarios', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(56): view('usuarios/tabla_usuarios', [])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UsuarioController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 06:52:31 --> Undefined variable $usuario
+in APPPATH\Views\usuarios\tabla_usuarios.php on line 26.
+ 1 APPPATH\Views\usuarios\tabla_usuarios.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'APPPATH\\Views\\usuarios\\tabla_usuarios.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\tabla_usuarios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/tabla_usuarios', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(56): view('usuarios/tabla_usuarios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UsuarioController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 07:18:02 --> Undefined variable $data
+in APPPATH\Views\usuarios\ver_usuarios.php on line 11.
+ 1 APPPATH\Views\usuarios\ver_usuarios.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\usuarios\\ver_usuarios.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\ver_usuarios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/ver_usuarios', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(63): view('usuarios/ver_usuarios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UsuarioController->show('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 07:29:15 --> Trying to access array offset on value of type null
+in APPPATH\Views\usuarios\ver_usuarios.php on line 11.
+ 1 APPPATH\Views\usuarios\ver_usuarios.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\usuarios\\ver_usuarios.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\ver_usuarios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/ver_usuarios', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(63): view('usuarios/ver_usuarios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UsuarioController->show('index')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 07:49:25 --> Undefined array key "nombre_completo"
+in APPPATH\Controllers\UsuarioController.php on line 18.
+ 1 APPPATH\Controllers\UsuarioController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_completo"', 'APPPATH\\Controllers\\UsuarioController.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UsuarioController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 07:53:11 --> Undefined array key "ine"
+in APPPATH\Controllers\UsuarioController.php on line 21.
+ 1 APPPATH\Controllers\UsuarioController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ine"', 'APPPATH\\Controllers\\UsuarioController.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UsuarioController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 07:54:13 --> Undefined array key "tipo sangre"
+in APPPATH\Controllers\UsuarioController.php on line 25.
+ 1 APPPATH\Controllers\UsuarioController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipo sangre"', 'APPPATH\\Controllers\\UsuarioController.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UsuarioController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 07:56:09 --> Undefined array key "tipo sangre"
+in APPPATH\Controllers\UsuarioController.php on line 25.
+ 1 APPPATH\Controllers\UsuarioController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipo sangre"', 'APPPATH\\Controllers\\UsuarioController.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UsuarioController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 07:56:25 --> Undefined array key "tipo sangre"
+in APPPATH\Controllers\UsuarioController.php on line 25.
+ 1 APPPATH\Controllers\UsuarioController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipo sangre"', 'APPPATH\\Controllers\\UsuarioController.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UsuarioController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 07:59:18 --> Undefined array key "tipo sangre"
+in APPPATH\Controllers\UsuarioController.php on line 25.
+ 1 APPPATH\Controllers\UsuarioController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipo sangre"', 'APPPATH\\Controllers\\UsuarioController.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UsuarioController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-09 08:01:51 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`sangre`, `no` `licencia`, `tipo` `licencia`, `vigencia` `licencia`, `telefono`,' at line 1 in C:\laragon\www\lara\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\lara\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\laragon\www\lara\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\laragon\www\lara\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\laragon\www\lara\system\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\laragon\www\lara\system\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\lara\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\lara\system\Model.php(729): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\lara\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\lara\app\Controllers\UsuarioController.php(35): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\lara\system\CodeIgniter.php(934): App\Controllers\UsuarioController->create()
+#10 C:\laragon\www\lara\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#11 C:\laragon\www\lara\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\lara\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-02-09 08:01:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`sangre`, `no` `licencia`, `tipo` `licencia`, `vigencia` `licencia`, `telefono`,' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `choferes` (`nombre_completo`, `descripcion`, `empresa`, `ine`, `curp`, `rfc`, `nss`, `tipo` `sangre`, `no` `licencia`, `tipo` `licencia`, `vigencia` `licencia`, `telefono`, `foto` `chofer`, `no` `ine`, `expediente`) VALUES (:nombre_completo:, :descripcion:, :empresa:, :ine:, :curp:, :rfc:, :nss:, :tipo sangre:, :no licencia:, :tipo licencia:, :vigencia licencia:, :telefono:, :foto chofer:, :no ine:, :expediente:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\UsuarioController.php(35): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UsuarioController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-09 08:04:10 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`proyectolara`.`choferes`, CONSTRAINT `idEmpresa` FOREIGN KEY (`empresa`) REFERENCES `empresa` (`id`) ON UPDATE CASCADE) in C:\laragon\www\lara\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\lara\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\laragon\www\lara\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\laragon\www\lara\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\laragon\www\lara\system\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\laragon\www\lara\system\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\lara\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\lara\system\Model.php(729): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\lara\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\lara\app\Controllers\UsuarioController.php(35): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\lara\system\CodeIgniter.php(934): App\Controllers\UsuarioController->create()
+#10 C:\laragon\www\lara\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#11 C:\laragon\www\lara\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\lara\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-02-09 08:04:10 --> Cannot add or update a child row: a foreign key constraint fails (`proyectolara`.`choferes`, CONSTRAINT `idEmpresa` FOREIGN KEY (`empresa`) REFERENCES `empresa` (`id`) ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `choferes` (`nombre_completo`, `descripcion`, `empresa`, `ine`, `curp`, `rfc`, `nss`, `tipo_sangre`, `no_licencia`, `tipo_licencia`, `vigencia_licencia`, `telefono`, `foto_chofer`, `no_ine`, `expediente`) VALUES (:nombre_completo:, :descripcion:, :empresa:, :ine:, :curp:, :rfc:, :nss:, :tipo_sangre:, :no_licencia:, :tipo_licencia:, :vigencia_licencia:, :telefono:, :foto_chofer:, :no_ine:, :expediente:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\UsuarioController.php(35): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UsuarioController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 08:06:21 --> Call to undefined function App\Controllers\index()
+in APPPATH\Controllers\UsuarioController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UsuarioController->create()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-02-09 08:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-09 08:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-09 08:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -4,78 +4,70 @@
 
 <div class="col-lg-12" style="padding: 50px">
     <div class="">
-            <form action="<?php base_url(); ?>usuario/save" method="POST">
+            <form action="<?php base_url(); ?>/usuario">
+
                 <div class="form-group">
                     <label>Nombre </label>
-                    <input class="form-control" name="nombre" placeholder="">
+                    <p class="form-control-static" name="nombre" type=""><?=$usuario['nombre_completo']?></p>    
                 </div>
                 <div class="form-group">
                     <label>Descripcion </label>
-                    <input class="form-control" name="descripcion" placeholder="">
+                    <p class="form-control-static" name="descripcion"><?=$usuario['descripcion']?></p>
                 </div> 
                 <div class="form-group">
                     <label>Empresa</label>
-                    <select class="form-control">
-                        <option>Empresa 1</option>
-                        <option>Empresa 2</option>
-                        <option>Empresa 3</option>
-                    </select>
+                    <p class="form-control-static" name="empresa"><?=$usuario['empresa']?></p>
                 </div>
                 <div class="form-group">
-                    <label>IFE </label>
-                    <input class="form-control" name="ife" placeholder="">
+                    <label>INE </label>
+                    <p class="form-control-static" name="ine"><?=$usuario['ine']?></p>
                 </div>
                 <div class="form-group">
                     <label>CURP </label>
-                    <input class="form-control" name="curp" placeholder="">
+                    <p class="form-control-static" name="curp"><?=$usuario['curp']?></p>
                 </div>
                 <div class="form-group">
                     <label>RFC </label>
-                    <input class="form-control" name="rfc" placeholder="">
+                    <p class="form-control-static" name="rfc"><?=$usuario['rfc']?></p>
                 </div>
                 <div class="form-group">
                     <label>NSS </label>
-                    <input class="form-control" name="nss" placeholder="">
+                    <p class="form-control-static" name="nss"><?=$usuario['nss']?></p>
                 </div>
                 <div class="form-group">
                     <label>Tipo de sangre </label>
-                    <input class="form-control" name="tipo sangre" placeholder="">
+                    <p class="form-control-static" name="tipo sangre"><?=$usuario['tipo sangre']?></p>
                 </div>
                 <div class="form-group">
                     <label>Numero de licencia</label>
-                    <input class="form-control" name="no licencia" placeholder="">
+                    <p class="form-control-static" name="no licencia"><?=$usuario['no licencia']?></p>
                 </div>
                 <div class="form-group">
                     <label>Tipo de licencia </label>
-                    <input class="form-control" name="tipo licencia" placeholder="">
-                </div>
-                <div class="form-group">
-                    <label>RFC </label>
-                    <input class="form-control" name="rfc" placeholder="">
+                    <p class="form-control-static" name="tipo licencia"><?=$usuario['tipo licencia']?></p>
                 </div>
                 <div class="form-group">
                     <label>Vigencia de la licencia</label>
-                    <input class="form-control" name="vigencia licencia" type="date">
+                    <p class="form-control-static" name="vigencia licencia"><?=$usuario['vigencia licencia']?></p>
                 </div>
                 <div class="form-group">
                     <label>Telefono </label>
-                    <input class="form-control" name="telefono" placeholder="">
+                    <p class="form-control-static" name="telefono"><?=$usuario['telefono']?></p>
                 </div>
                 <div class="form-group">
                     <label>Foto </label>
-                    <input class="" name="foto chofer" type="file">
+                    
                 </div>
                 <div class="form-group">
                     <label>Numero del INE </label>
-                    <input class="form-control" name="no ine" placeholder="">
+                    <p class="form-control-static" name="no ine"><?=$usuario['no ine']?></p>
                 </div>
                 <div class="form-group">
                     <label>Expediente </label>
-                    <input class="" name="expediente" placeholder="" type="file">
+                    <p class="form-control-static" name="expediente"><?=$usuario['expediente']?></p>
                 </div>
                 <div>
-                    <button class="btn btn-success" type="submit">Guardar</button> <button
-                        class="btn btn-danger">Cancelar</button>
+                    <button class="btn btn-danger">Regresar</button>
                 </div>
             </form>
     </div>

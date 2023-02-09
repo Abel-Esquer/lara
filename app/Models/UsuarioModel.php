@@ -9,18 +9,18 @@ class UsuarioModel extends Model{
     protected $allowedFields = [
         "nombre_completo", 
         "descripcion",
-        "empresa" ,
-        "ine" ,
+        "empresa",
+        "ine",
         "curp", 
         "rfc",
         "nss",
-        "tipo sangre",
-        "no licencia",
-        "tipo licencia",
-        "vigencia licencia",
+        "tipo_sangre",
+        "no_licencia",
+        "tipo_licencia",
+        "vigencia_licencia",
         "telefono",
-        "foto chofer",
-        "no ine",
+        "foto_chofer",
+        "no_ine",
         "expediente"
     ];
 
