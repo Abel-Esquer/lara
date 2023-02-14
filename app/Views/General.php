@@ -58,7 +58,7 @@
                             <a href="<?php base_url(); ?>/usuario/new"><i class="fa fa-user fa-fw"></i> Nuevo usuario </a>
                         </li>
                         <li>
-                            <a href="<?php base_url(); ?>/empresa"><i class="fa fa-shop fa-fw"></i> Nueva Empresa </a>
+                            <a href="<?php base_url(); ?>/empresa/new"><i class="fa fa-shop fa-fw"></i> Nueva Empresa </a>
                         </li>
                     </ul>
 

@@ -30,7 +30,6 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
-
 $routes->get('/agregar', 'UsuarioController::save');
 $routes->get('/form', 'UsuarioController::form');
 
@@ -38,34 +37,41 @@ $routes->get('/form', 'UsuarioController::form');
 //Formulario para crear un usuario
 //Regresar un view
 $routes->get('usuario/new', 'UsuarioController::new');
+$routes->get('empresa/new', 'EmpresaController::new');
 
 //Crea al usuario en la base de datos
 //Regresa un true
 $routes->post('usuario', 'UsuarioController::create');
-$routes->post('empresa', 'UsuarioController::create');
+$routes->post('empresa', 'EmpresaController::create');
 
 
 //Regresa lista con todos los usuarios de la base de datos
 $routes->get('usuario', 'UsuarioController::index');
+$routes->get('empresa', 'EmpresaController::index');
 
 //Regresa el usuario con el id proporcionado
 $routes->get('usuario/(:segment)', 'UsuarioController::show/$1');
+$routes->get('empresa/(:segment)', 'EmpresaController::show/$1');
 
 //Formulario para editar el usuario
 //Regresa un view
 $routes->get('usuario/(:segment)/edit', 'UsuarioController::edit/$1');
+$routes->get('empresa/(:segment)/edit', 'EmpresaController::edit/$1');
 
 //Edita al usuario en la base de daos
 //$routes->put('usuario/(:segment)', 'UsuarioController::update/$1');
 
 //Edita al usuario en la base de datos
 $routes->post('usuario/(:segment)/edit', 'UsuarioController::update/$1');
+$routes->post('empresa/(:segment)/edit', 'EmpresaController::update/$1');
 
 //Edita al usuario en la base de datos
 $routes->patch('usuario/(:segment)', 'UsuarioController::update/$1');
+$routes->patch('empresa/(:segment)', 'EmpresaController::update/$1');
 
 //Elimina al usuario en la base de datos
 $routes->delete('usuario/(:segment)', 'UsuarioController::delete/$1');
+$routes->delete('empresa/(:segment)', 'EmpresaController::delete/$1');
 
 /*
  * --------------------------------------------------------------------

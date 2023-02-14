@@ -36,19 +36,19 @@
                 </div>
                 <div class="form-group">
                     <label>Tipo de sangre </label>
-                    <p class="form-control-static" name="tipo sangre"><?=$usuario['tipo sangre']?></p>
+                    <p class="form-control-static" name="tipo sangre"><?=$usuario['tipo_sangre']?></p>
                 </div>
                 <div class="form-group">
                     <label>Numero de licencia</label>
-                    <p class="form-control-static" name="no licencia"><?=$usuario['no licencia']?></p>
+                    <p class="form-control-static" name="no licencia"><?=$usuario['no_licencia']?></p>
                 </div>
                 <div class="form-group">
                     <label>Tipo de licencia </label>
-                    <p class="form-control-static" name="tipo licencia"><?=$usuario['tipo licencia']?></p>
+                    <p class="form-control-static" name="tipo licencia"><?=$usuario['tipo_licencia']?></p>
                 </div>
                 <div class="form-group">
                     <label>Vigencia de la licencia</label>
-                    <p class="form-control-static" name="vigencia licencia"><?=$usuario['vigencia licencia']?></p>
+                    <p class="form-control-static" name="vigencia licencia"><?=$usuario['vigencia_licencia']?></p>
                 </div>
                 <div class="form-group">
                     <label>Telefono </label>
@@ -56,11 +56,10 @@
                 </div>
                 <div class="form-group">
                     <label>Foto </label>
-                    
                 </div>
                 <div class="form-group">
                     <label>Numero del INE </label>
-                    <p class="form-control-static" name="no ine"><?=$usuario['no ine']?></p>
+                    <p class="form-control-static" name="no ine"><?=$usuario['no_ine']?></p>
                 </div>
                 <div class="form-group">
                     <label>Expediente </label>

@@ -15,11 +15,10 @@
                 </div> 
                 <div class="form-group">
                     <label>Empresa</label>
-                    <select class="form-control" value ="1" name="empresa">
+                    <select class="form-control" name="empresa">
                     <?php foreach($empresas as $key => $empresa){?> 
-                        <option><?=$empresa['nombre']?></option>
+                        <option value='<?=$empresa['id']?>'><?=$empresa['nombre']?></option>
                         <?php } ?>
-                        <option>Empresa 3</option>
                     </select>
                 </div>
                 <div class="form-group">

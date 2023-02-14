@@ -2,22 +2,26 @@
 
 namespace App\Controllers;
 
-use App\Models\EmpresaController; 
+use App\Models\EmpresaModel; 
 
-class EmpresaController extends BaseController
-{
+class EmpresaController extends BaseController{
+    public function new(){
+        return view('empresas/form_empresas');
+
+    }
 
     public function create(){ 
         $empresaModel = new EmpresaModel();
         $datos = [
-            'nombre' => $_POST['nombre']
+            'nombre' => $_POST['nomre']
         ];
 
         $resultado = $empresaModel->save($datos);
         if($resultado){
-            echo '<script>alert("La empresa se registro con exito")</script>';
+            echo '<script>alert("Empresa registrada con exito")</script>';
         }else{
             echo '<script>alert("La empresa no ha podido ser registrada")</script>';
         }
+    }
 
 }

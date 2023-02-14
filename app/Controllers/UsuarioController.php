@@ -8,7 +8,10 @@ class UsuarioController extends BaseController
 {
 
     public function new(){
-        return view('usuarios/form_usuarios');
+        $empresaModel = new \App\Models\EmpresaModel();
+        $empresas = $empresaModel->findAll();
+        $data = ["empresas"=>$empresas];
+        return view('usuarios/form_usuarios',$data);
 
     }
 
@@ -45,18 +48,23 @@ class UsuarioController extends BaseController
         $usuarios = $usuarioModel->findAll();
         $data = ["usuarios"=>$usuarios];
 
-        $empresaModel = new \App\Models\EmpresaModel();
-        $empresas = $empresaModel->findAll();
-        $datos = ["empresa"=>$empresa];
-
-
-        return view('usuarios/tabla_usuarios',$data, $datos);
+        return view('usuarios/tabla_usuarios',$data);
     }
 
     public function show($id){
         $usuarioModel = new \App\Models\UsuarioModel();
         $usuario = $usuarioModel->find($id);
         $data = ["usuario"=>$usuario];
-        return view('usuarios/ver_usuarios');
+        return view('usuarios/ver_usuarios',$data);
+    }
+
+    function delete($id){
+        $usuarioModel = new UsuarioModel();
+        $resultado = $usuarioModel->delete($id); 
+        if($resultado){
+            echo '<script>alert("Usuario eliminado con exito")</script>';
+        }else{
+            echo '<script>alert("El usuario no ha podido ser eliminado")</script>';
+        }
     }
 }

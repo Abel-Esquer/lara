@@ -1,0 +1,73 @@
+CRITICAL - 2023-02-14 03:00:53 --> Undefined variable $usuario
+in APPPATH\Views\usuarios\ver_usuarios.php on line 11.
+ 1 APPPATH\Views\usuarios\ver_usuarios.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'APPPATH\\Views\\usuarios\\ver_usuarios.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\ver_usuarios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/ver_usuarios', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(58): view('usuarios/ver_usuarios')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UsuarioController->show('index')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 03:06:07 --> Undefined variable $usuario
+in APPPATH\Views\usuarios\ver_usuarios.php on line 11.
+ 1 APPPATH\Views\usuarios\ver_usuarios.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'APPPATH\\Views\\usuarios\\ver_usuarios.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\ver_usuarios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/ver_usuarios', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(58): view('usuarios/ver_usuarios')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UsuarioController->show('index')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 03:07:49 --> Trying to access array offset on value of type null
+in APPPATH\Views\usuarios\ver_usuarios.php on line 11.
+ 1 APPPATH\Views\usuarios\ver_usuarios.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\usuarios\\ver_usuarios.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\ver_usuarios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/ver_usuarios', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(58): view('usuarios/ver_usuarios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UsuarioController->show('index')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 03:08:49 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\laragon\www\lara\app\Controllers\UsuarioController.php on line 57
+in SYSTEMPATH\Common.php on line 1163.
+ 1 APPPATH\Controllers\UsuarioController.php(57): view('usuarios/ver_usuarios', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UsuarioController->show('index')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 03:09:17 --> Trying to access array offset on value of type null
+in APPPATH\Views\usuarios\ver_usuarios.php on line 11.
+ 1 APPPATH\Views\usuarios\ver_usuarios.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\usuarios\\ver_usuarios.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\ver_usuarios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/ver_usuarios', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(58): view('usuarios/ver_usuarios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UsuarioController->show('index')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 03:13:17 --> Undefined variable $empresas
+in APPPATH\Views\usuarios\form_usuarios.php on line 19.
+ 1 APPPATH\Views\usuarios\form_usuarios.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empresas', 'APPPATH\\Views\\usuarios\\form_usuarios.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\form_usuarios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/form_usuarios', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(14): view('usuarios/form_usuarios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UsuarioController->new()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 17:21:33 --> Undefined array key "tipo sangre"
+in APPPATH\Views\usuarios\ver_usuarios.php on line 39.
+ 1 APPPATH\Views\usuarios\ver_usuarios.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipo sangre"', 'APPPATH\\Views\\usuarios\\ver_usuarios.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\ver_usuarios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/ver_usuarios', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(58): view('usuarios/ver_usuarios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UsuarioController->show('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
