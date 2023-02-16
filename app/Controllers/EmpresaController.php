@@ -13,7 +13,7 @@ class EmpresaController extends BaseController{
     public function create(){ 
         $empresaModel = new EmpresaModel();
         $datos = [
-            'nombre' => $_POST['nomre']
+            'nombre' => $_POST['nombre']
         ];
 
         $resultado = $empresaModel->save($datos);
